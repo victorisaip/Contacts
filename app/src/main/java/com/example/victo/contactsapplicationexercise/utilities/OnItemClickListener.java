@@ -1,4 +1,4 @@
-package com.example.victo.contactsapplicationexercise;
+package com.example.victo.contactsapplicationexercise.utilities;
 
 import android.view.View;
 

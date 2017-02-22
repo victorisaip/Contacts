@@ -1,10 +1,12 @@
 
-package com.example.victo.contactsapplicationexercise;
+package com.example.victo.contactsapplicationexercise.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class Contact {
+import java.io.Serializable;
+
+public class Contact implements Serializable{
 
     @SerializedName("name")
     @Expose
@@ -120,4 +122,6 @@ public class Contact {
                 ", address=" + address +
                 '}';
     }
+
+
 }

@@ -1,4 +1,4 @@
-package com.example.victo.contactsapplicationexercise;
+package com.example.victo.contactsapplicationexercise.utilities;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,6 +7,9 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.victo.contactsapplicationexercise.R;
+import com.example.victo.contactsapplicationexercise.model.Contact;
 import com.squareup.picasso.Picasso;
 import java.util.List;
 
@@ -37,7 +40,6 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.MyViewHo
     public ContactAdapter(List<Contact> contactList, Context context) {
         this.context = context;
         this.contactList = contactList;
-        this.onItemClickListener = onItemClickListener;
     }
 
     public ContactAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {

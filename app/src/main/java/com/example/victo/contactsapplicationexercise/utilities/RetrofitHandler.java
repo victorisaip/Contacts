@@ -1,4 +1,6 @@
-package com.example.victo.contactsapplicationexercise;
+package com.example.victo.contactsapplicationexercise.utilities;
+
+import com.example.victo.contactsapplicationexercise.model.Contact;
 
 import java.util.List;
 import retrofit2.Retrofit;

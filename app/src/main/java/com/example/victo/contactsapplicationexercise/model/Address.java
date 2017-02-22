@@ -1,5 +1,5 @@
 
-package com.example.victo.contactsapplicationexercise;
+package com.example.victo.contactsapplicationexercise.model;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
